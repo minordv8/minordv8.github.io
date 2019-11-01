@@ -224,21 +224,22 @@ aside {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); }
-  .navbar-default .navbar-brand {
-    padding: 8px; }
-    .navbar-default .navbar-brand.hidden-lg {
-      max-height: 48px; }
-      @media (max-width: 480px) {
-        .navbar-default .navbar-brand.hidden-lg {
-          width: 350px; } }
   .navbar-default .navbar-notice {
-    padding-top: 10px;
-    padding-left: 60px; }
+    padding-top: 0px;
+    padding-left: 0px; }
   .navbar-default .navbar-header > .navbar-brand, .navbar-default .navbar-right > .navbar-brand {
     margin-top: 10px;
     height: auto; }
+  .navbar-default .navbar-brand {
+    padding: 8px; }
+    @media (max-width: 480px) {
+      .navbar-default .navbar-brand.hidden-lg {
+        width: 176px;
+        margin-top: 0; } }
   .navbar-default .navbar-toggle {
     border-width: 0; }
+    .navbar-default .navbar-toggle:hover {
+      background-color: rgba(255, 255, 255, 0); }
     .navbar-default .navbar-toggle .icon-bar {
       width: 36px; }
   .navbar-default .nav > li > a,
@@ -295,26 +296,27 @@ header {
   background-repeat: no-repeat;
   background-size: auto;
   background-color: #102F52;
-  background-position: center top;
+  background-position: center 50px;
   background-image: url("../img/blackout_homefront_homes-in-a-row.jpg");
   text-align: center;
   color: white; }
   @media (min-width: 769px) {
     header {
       background-size: 100% auto;
+      background-position-y: top;
       margin-top: 85px; } }
   header .header-content {
     position: relative;
     text-align: center;
     width: 100%;
-    padding-top: 100px; }
+    padding-top: 80px; }
     header .header-content .header-content-inner h1 {
-      margin-bottom: 190px;
-      margin-top: 40px; }
+      margin-top: 0;
+      margin-bottom: 190px; }
       @media (min-width: 769px) {
         header .header-content .header-content-inner h1 {
           font-size: 46px !important;
-          margin-top: 0; } }
+          margin-top: 40px; } }
     header .header-content .header-content-inner p {
       font-weight: 300;
       font-size: 20px;
