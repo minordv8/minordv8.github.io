@@ -76,11 +76,14 @@ h1 {
 h2 {
   margin-bottom: 20px;
   font-weight: 300;
-  font-size: 26px; }
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center; }
   @media (min-width: 1024px) {
     h2 {
       font-size: 32px;
-      line-height: 40px; }
+      line-height: 40px;
+      text-align: left; }
       h2.alt {
         font-size: 36px; } }
   h2.headline {
@@ -457,12 +460,16 @@ header {
   margin-bottom: 30px; }
 #solar-benefits .text-muted {
   font-size: 12px; }
-@media (min-width: 1024px) {
-  #solar-benefits .column-bg {
-    background-image: url("../img/aerial_suburban_summer_evening.jpg");
-    background-position: right top;
-    background-size: 50% auto;
-    background-repeat: no-repeat; } }
+#solar-benefits .column-bg {
+  background-image: url("../img/aerial_suburban_summer_evening-flipped.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  padding-top: 320px; }
+  @media (min-width: 1024px) {
+    #solar-benefits .column-bg {
+      padding-top: 0;
+      background-position: right top;
+      background-size: 50% auto; } }
 
 #products .top-bg .list-group .list-group-item {
   background-repeat: no-repeat;
@@ -475,11 +482,13 @@ header {
     padding-left: 15px; }
 #products .bottom-bg {
   background-color: #060918;
-  background-image: url("../img/blackout_homefront_cul-de-sac.jpg");
+  background-image: url("../img/blackout_homefront_cul-de-sac-mobile.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
-  background-position: center bottom;
+  background-position: left -120px;
   min-height: 644px; }
+  #products .bottom-bg h2 {
+    margin-bottom: 310px; }
   @media (min-width: 768px) {
     #products .bottom-bg {
       min-height: 500px;
@@ -487,16 +496,19 @@ header {
       background-size: 100% auto;
       background-position: left top; }
       #products .bottom-bg h2 {
-        margin-top: 60px; } }
-  #products .bottom-bg .list-group .list-group-item {
-    background-color: rgba(0, 0, 0, 0);
-    border-color: rgba(0, 0, 0, 0);
-    background-repeat: no-repeat;
-    background-size: 32px auto;
-    background-position: left 10px;
-    padding-left: 60px; }
-    #products .bottom-bg .list-group .list-group-item.no-icon {
-      padding-left: 15px; }
+        margin-top: 60px;
+        margin-bottom: 0; } }
+  #products .bottom-bg .list-group {
+    margin-left: 30px; }
+    #products .bottom-bg .list-group .list-group-item {
+      background-color: rgba(0, 0, 0, 0);
+      border-color: rgba(0, 0, 0, 0);
+      background-repeat: no-repeat;
+      background-size: 32px auto;
+      background-position: left 10px;
+      padding-left: 60px; }
+      #products .bottom-bg .list-group .list-group-item.no-icon {
+        padding-left: 15px; }
   #products .bottom-bg .text-muted {
     margin-top: 20px;
     margin-bottom: 10px; }
