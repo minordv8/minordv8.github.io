@@ -175,10 +175,9 @@ aside {
   margin-bottom: 25px; }
 
 .btn-block {
-  display: none; }
+  display: block; }
   @media (min-width: 1200px) {
     .btn-block {
-      display: block;
       text-align: left;
       padding-bottom: 0; } }
   .btn-block.mobile {
@@ -509,6 +508,9 @@ header {
       padding-left: 60px; }
       #products .bottom-bg .list-group .list-group-item.no-icon {
         padding-left: 15px; }
+    @media (min-width: 768px) {
+      #products .bottom-bg .list-group {
+        margin-left: 0; } }
   #products .bottom-bg .text-muted {
     margin-top: 20px;
     margin-bottom: 10px; }
