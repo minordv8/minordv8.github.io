@@ -1,14 +1,8 @@
-# Creative Theme for Jekyll
+# Johnny J Hernandez: Front End Developer
 
-A Jekyll implementation of the [Creative Theme](http://startbootstrap.com/template-overviews/creative/) template by [Start Bootstrap](http://startbootstrap.com).
+## Qualifications:
 
-Creative is a one page Bootstrap theme for creatives, small businesses, and other multipurpose uses.
-The theme includes a number of rich features and plugins that you can use as a great boilerplate for your next Jekyll project! 
+HTML5, CSS3, jQuery, Bootstrap and Backbone.js; Java, Struts JSP/JSTL; Linux, Apache/NginX, MYSQL and PHP; Ruby on Rails, LESS, and SASS; Joomla, Drupal, MODx and Wordpress; UNIX, OSX, and Windows; IE, Mozilla/FireFox, Safari, Chrome and Opera; ClearCase, Perforce, CVS, Subversion and Git; Photoshop, Illustrator, and InDesign; Basecamp, Trello and Jira. Optimizely, Hupspot, and Marketo
 
-See it live in action at <https://volny.github.io/creative-theme-jekyll/>
 
-## To use the Creative Theme template in your project
-
-- Start by adding your info in `_config.yml`
-- In `_layouts/front.html` reorder or remove section as you prefer.
 
